@@ -1,0 +1,92 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/2429400.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#selectionButtons {
+  margin-top: 150px;
+  margin-left: 330px;
+}
+
+#buttonHome,
+#buttonFactory,
+#buttonAgr {
+  border-radius: 1500px;
+  padding: 25px;
+  margin-left: 160px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  background-color: #37c1eb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(24, 143, 212);
+}
+
+#buttonHome:hover,
+#buttonFactory:hover,
+#buttonAgr:hover {
+  background-color: #0997cf;
+}
+
+#buttonHome:active,
+#buttonFactory:active,
+#buttonAgr:active {
+  background-color: #0997cf;
+  box-shadow: 0 5px rgb(24, 65, 250);
+  transform: translateY(4px);
+}
+
+#buttonSummary {
+  border-radius: 1500px;
+  padding: 25px;
+  padding-left: 450px;
+  padding-right: 450px;
+  margin-top: 340px;
+  margin-left: 460px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  background-color: #2dcbd6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #0e86b6;
+}
+
+#buttonSummary:hover {
+  background-color: #0ebce7;
+}
+
+#buttonSummary:active {
+  background-color: #0ebce7;
+  box-shadow: 0 5px #0e76a0;
+  transform: translateY(4px);
+}
+
+#selectionButtonsPics {
+  margin-bottom: 20px;
+}
+
+#housePic {
+  background-color: #74cae4;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 210px;
+  width: 5%;
+  height: 5%;
+}
+#factoryPic {
+  background-color: #74cae4;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 290px;
+  width: 5%;
+  height: 5%;
+}
+#farmPic {
+  background-color: #74cae4;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 285px;
+  width: 4%;
+  height: 4%;
+}
